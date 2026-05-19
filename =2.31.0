@@ -1,0 +1,14 @@
+Looking in indexes: https://mirrors.cloud.aliyuncs.com/pypi/simple
+Collecting requests
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/20/e7/bed0024a0f4ab0c8a9c64d4445f39b30c99bd1acd228291959e3de664247/charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/d2/23/408243171aa9aaba178d3e2559159c24c1171a641aa83b67bdd3394ead8e/idna-3.15-py3-none-any.whl (72 kB)
+Collecting urllib3<3,>=1.26 (from requests)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl (131 kB)
+Collecting certifi>=2023.5.7 (from requests)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/22/30/7cd8fdcdfbc5b869528b079bfb76dcdf6056b1a2097a662e5e8c04f42965/certifi-2026.4.22-py3-none-any.whl (135 kB)
+Installing collected packages: urllib3, idna, charset_normalizer, certifi, requests
+
+Successfully installed certifi-2026.4.22 charset_normalizer-3.4.7 idna-3.15 requests-2.34.2 urllib3-2.7.0

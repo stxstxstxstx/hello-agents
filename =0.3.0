@@ -1,0 +1,29 @@
+Looking in indexes: https://mirrors.cloud.aliyuncs.com/pypi/simple
+Collecting tavily-python
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/63/ce/37e3aba0f359f540bfc57eb178f73d521161761f21e0aa28749f42750b11/tavily_python-0.7.24-py3-none-any.whl (20 kB)
+Requirement already satisfied: requests in /mnt/workspace/miniconda3/envs/hello-agents/lib/python3.10/site-packages (from tavily-python) (2.34.2)
+Collecting tiktoken>=0.5.1 (from tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/51/e0/92557768fb0801f0d9dd9243cb9b6d342900b05e4b1006d4771f49ce233e/tiktoken-0.13.0-cp310-cp310-manylinux_2_28_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 72.6 MB/s  0:00:00
+Collecting httpx (from tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting regex (from tiktoken>=0.5.1->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/55/7f/725a0a2b245a4cf0c4bab29d0e97c74285d94136a65d1b55a6459a583502/regex-2026.5.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (794 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 794.1/794.1 kB 71.8 MB/s  0:00:00
+Collecting anyio (from httpx->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/da/42/e921fccf5015463e32a3cf6ee7f980a6ed0f395ceeaa45060b61d86486c2/anyio-4.13.0-py3-none-any.whl (114 kB)
+Requirement already satisfied: certifi in /mnt/workspace/miniconda3/envs/hello-agents/lib/python3.10/site-packages (from httpx->tavily-python) (2026.4.22)
+Collecting httpcore==1.* (from httpx->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl (78 kB)
+Requirement already satisfied: idna in /mnt/workspace/miniconda3/envs/hello-agents/lib/python3.10/site-packages (from httpx->tavily-python) (3.15)
+Collecting h11>=0.16 (from httpcore==1.*->httpx->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting exceptiongroup>=1.0.2 (from anyio->httpx->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting typing_extensions>=4.5 (from anyio->httpx->tavily-python)
+  Downloading https://mirrors.cloud.aliyuncs.com/pypi/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /mnt/workspace/miniconda3/envs/hello-agents/lib/python3.10/site-packages (from requests->tavily-python) (3.4.7)
+Requirement already satisfied: urllib3<3,>=1.26 in /mnt/workspace/miniconda3/envs/hello-agents/lib/python3.10/site-packages (from requests->tavily-python) (2.7.0)
+Installing collected packages: typing_extensions, regex, h11, tiktoken, httpcore, exceptiongroup, anyio, httpx, tavily-python
+
+Successfully installed anyio-4.13.0 exceptiongroup-1.3.1 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 regex-2026.5.9 tavily-python-0.7.24 tiktoken-0.13.0 typing_extensions-4.15.0
